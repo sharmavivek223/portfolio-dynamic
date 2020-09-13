@@ -1,0 +1,42 @@
+
+
+@media (min-width: 576px)
+{
+.small-screen {
+    flex: 0 0 25%;
+    max-width: 25%;
+}}
+@media (max-width: 575px) and(min-width: 300px) {
+    .skills-row {
+        width:90vw;
+    }
+
+    .col-xs-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 400px) {
+    .skills-row {
+        width:80vw;
+    }
+}
+@media (min-width: 600px) {
+    .skills-row {
+        width:70vw;
+        }
+    
+}
+@media (min-width: 768px) {
+    .skills-row {
+        width:50vw;
+      }
+}
+span.h3-responsive {
+    position: relative;
+  top: 4px;
+}
+.row.skills-row.justify-content-center.mb-5 {
+    margin: auto;
+  }

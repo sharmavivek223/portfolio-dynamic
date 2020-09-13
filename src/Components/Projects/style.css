@@ -1,0 +1,107 @@
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+.nav-pills .nav-link.active{
+    background-color: #1C2331 !important;
+}
+
+.nav-item .nav-link {
+    color: #fff;
+}
+hr{
+    background-color: #fff;
+    width: 70%;
+    align-self: center;
+}
+.nav{
+    width:65%;
+    align-self:center;
+}
+.close{
+    color: #fff !important;
+}
+.modal-open .modal {
+    overflow-y:hidden !important;
+}
+.modal-footer{
+    border-top: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.modal-header{
+    border-bottom: 0 !important;
+}
+.modal-dialog{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: calc(100% - 1rem);
+    
+}
+.modal-body{
+    
+    overflow-y: hidden;
+    padding:0 !important;
+}
+.force-overflow{
+
+    max-height: 80vh;
+    padding:1rem;
+}
+.scrollbar {
+    margin-right: 30px;
+    float: left;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-bottom: 25px;
+    }
+    .scrollbar-primary::-webkit-scrollbar {
+        width: 12px;
+        background-color: transparent; }
+        
+        .scrollbar-primary::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+        background-color: #4285F4; }
+        
+        .scrollbar-primary {
+        scrollbar-color: #4285F4;
+        }
+@media (max-width: 576px)
+{
+    .modal-dialog {
+        max-width: 90% !important;
+    }
+
+    hr{
+        background-color: #fff;
+        width: 85%;
+        align-self: center;
+    }
+    .nav{
+        width:80%;
+        align-self:center;
+    }
+
+}
+
+@media (min-width: 769px)
+{
+    .modal-dialog {
+        max-width: 60% !important;
+    }
+
+}
